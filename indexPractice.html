@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--hey browser, I'll be speaking to you in HTML-->
+<html lang="en">
+  <head>
+    <!--Everything you want to communicate to the browser but don't need the viewer to see: meta tags, language, fonts, Google fonts, link to stylesheet-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Add Google Fonts here-->
+
+    <!--Link your stylesheet here-->
+    <link rel="stylesheet" href="css/indexPractice.css" />
+  </head>
+
+  <!--Helpful Tip: You can see your body but not the thoughts in your head-->
+  <body>
+    <!--Everything you want the viewer to see in the browser-->
+    <header id="Home">
+      <!--anchor id tag for clicking Home link. Link will take user back here, top of Home page-->
+      <nav>
+        <!--navigation header-->
+        <div class="logo">
+          <!--div #1 header-->
+          <img src="images/logo.png" alt="illustration of a watering can" />
+          <!--path to logo image in div and alt description in Google-->
+        </div>
+        <div class="links">
+          <!--div #2 header. Hey, there's a link here!-->
+          <a href="#Home">Home</a>
+          <!--#Home is reference the id tag I setup on the header tag as an anchor-->
+          <!--This is where to go when the user clicks the link!-->
+          <a href="#About">About</a>
+          <!--Using ID tag, I Can put an anchor anywhere on the site that refers back to these-->
+          <a href="#Shop">Plants</a>
+          <a href="#Contact">Contact</a>
+          <!--links for the buttons/anchor links in header AND footer-->
+        </div>
+        <!--a <div> is a container that holds a bunch of things to make them easier to move around all together.-->
+      </nav>
+      <!--end nav-->
+      <div class="CTA">
+        <h1>The Watering Can</h1>
+        <button>Shop Our Indoor Plant Sale!</button>
+        <!--button on home page-->
+      </div>
+    </header>
+    <!--end of header and menu-->
+    <section id="About">
+      <div>
+        <h2>Our Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          aliquid quos quis, quibusdam ad reprehenderit iusto natus nisi sint?
+          Rerum, repellendus ut est amet earum quis adipisci ex ipsam
+          laudantium?
+        </p>
+      </div>
+    </section>
+    <!--end water can and Indoor Plant Sale button-->
+    <section id="Shop">
+      <!--start Shop section-->
+      <h2>Our Plants</h2>
+      <div class="container">
+        <div>
+          <!--background image - will do in CSS-->
+        </div>
+      </div>
+      <div class="text">
+        <div>
+          <h3>Succulents</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            animi veniam unde hic autem, accusantium id vel est aliquid nesciunt
+            voluptatum iste neque excepturi laudantium numquam earum in modi
+            cupiditate!
+          </p>
+          <button>Shop Now!</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="text">
+          <!--type "div.text" and tab to auto complete div-->
+          <div>
+            <h3>Cacti</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
+              aspernatur perferendis est odio doloremque, laborum dolorum dicta
+              repellat, eveniet perspiciatis excepturi harum amet obcaecati
+              corrupti possimus ab aliquid quas modi.
+            </p>
+            <button>Shop Now!</button>
+          </div>
+        </div>
+        <div>
+          <!--background image-->
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <!--empty div with background image-->
+        </div>
+        <div class="text">
+          <div>
+            <h3>Tropicals</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut magni
+              aliquid fugit porro illum eveniet odio repudiandae mollitia
+              provident impedit, a dolores necessitatibus qui unde est ipsa,
+              amet repellat explicabo!
+            </p>
+            <button>Shop Now!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="Contact">
+      <!--id refers to a tag defined above-->
+
+      <h2>Get In Touch!</h2>
+      <div class="footer-parent">
+        <div class="left">
+          <div class="text-container">
+            <h3>Find Us Here:</h3>
+            <address>
+              123 Plant Lane<br /><!--forces the address to go to the next line-->
+              Bloomfield, Ontario<br /><!--only time you should use <br> tags in html and not CSS-->
+              Canada, L2G 0X7
+            </address>
+            <a href="tel:1-613-978-8282">+1 613-978-8282</a>
+            <!--"tel:" mobile will take to phone automatically-->
+            <a href="mailto:info@thewateringcan.ca"></a>
+            <!--takes directly to email and fills in email addy-->
+            <p>@the wateringcan on the socials</p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="img-wrapper">
+            <img
+              src="images/shop.jpg"
+              alt="plants on display inside of the shop"
+            />
+          </div>
+        </div>
+      </div>
+      <p>Copyright 2020</p>
+    </footer>
+  </body>
+</html>
+<!--end HTML-->
